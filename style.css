@@ -1,0 +1,108 @@
+/*montserra font & source 3 font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+margin:0;
+box-sizing: border-box;
+}
+
+/*Section Header*/
+
+header{
+background-color:#A306B6;
+height: 26vh; 
+}
+
+h1, h2, h3{
+font-family: "Montserrat", sans-serif;
+}
+
+h1{
+font-size: 1.7em;
+margin: auto 12rem;
+color: white;
+}
+
+/* Mon bloc DIV contient le H1 et l'avatar */
+div{
+display: flex;
+justify-content: center;
+flex-direction: row;
+
+}
+
+p, a, h4{
+font-family: "Source Sans 3", sans-serif;
+}
+
+a{
+text-decoration: none;
+color:white
+}
+
+.logo{
+margin: 10px;
+width:35px;
+height:25px;
+}
+
+.avatar{
+margin: 35px;
+width: 15vh;
+outline: solid 4px white; /*A la place de border (outline = contour + offset possible)*/
+outline-offset: -4px; /*Valeur negatif = rentrant, valeur positif = meme effet que border*/
+border-radius: 100px;
+}
+
+/* mon bloc nav contient logo et ul que j'ecarte avec de l'espace entre */
+nav {
+display: flex;
+justify-content:space-between;
+}
+
+ul{
+margin-top: 10px;
+margin-right: 30px;
+display: flex;
+list-style: none;
+gap: 40px;
+font-size: 0.7rem;
+}
+
+/*Section articles*/
+
+main > section > article > img{
+width: 150px;
+}
+
+h2{
+display: flex;
+justify-content: center;
+color:#A306B6;
+padding:25px;
+}
+
+.article_container{
+display: flex;
+justify-content: center;
+}
+
+.article_blocks{
+background-color:#D9D9D9;
+
+}
+
+h4{
+display:flex;
+justify-content: center;
+}
+
+button{
+display: block;
+justify-content: center;
+padding: 0.3rem 1.5rem;
+margin: 10px;
+background-color: #A306B6;
+color: white;
+border-radius: 13px;
+}
