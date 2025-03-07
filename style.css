@@ -1,157 +1,159 @@
 /*montserra font & source 3 font*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
-*{
-margin:0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-min-height: 90vh; /*Essentiellement pour mon le Footer*/
+body {
+  min-height: 90vh; /*Essentiellement pour mon le Footer*/
 }
 
 /*Section Header*/
 
-header{
-background-color:#A306B6;
+header {
+  background-color: #a306b6;
 }
 
-h1, h2, h3{
-font-family: "Montserrat", sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
 
-h1{
-font-size: 1.7em;
-color: white;
+h1 {
+  font-size: 1.7em;
+  color: white;
 }
 
 /* Mon bloc DIV contient le H1 et l'avatar */
-div{
-display: flex;
-align-items: center;
-justify-content: space-around;
-flex-direction: row;
-
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
-p, a, h4{
-font-family: "Source Sans 3", sans-serif;
+p,
+a,
+h4 {
+  font-family: "Source Sans 3", sans-serif;
 }
 
-a{
-text-decoration: none;
-color:white
+a {
+  text-decoration: none;
+  color: white;
 }
 
-.logo{
-margin: 10px;
-width: 1.5rem;
-height:25px;
+.logo {
+  margin: 10px;
+  width: 2rem;
+  height: 1.5rem;
 }
 
-.avatar{
-margin: 35px;
-width: 15vh;
-outline: solid 4px white; /*A la place de border (outline = contour + offset possible)*/
-outline-offset: -4px; /*Valeur negatif = rentrant, valeur positif = meme effet que border*/
-border-radius: 100%;
+.avatar {
+  margin: 35px;
+  width: 15vh;
+  outline: solid 4px white; /*A la place de border (outline = contour + offset possible)*/
+  outline-offset: -4px; /*Valeur negatif = rentrant, valeur positif = meme effet que border*/
+  border-radius: 100%;
 }
 
 /* mon bloc nav contient logo et ul que j'ecarte avec de l'espace entre */
 nav {
-display: flex;
-justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-ul{
-margin-top: 1rem;
-margin-right: 3rem;
-display: flex;
-list-style: none;
-gap: 2rem;
-font-size: .7rem;
+ul {
+  margin-top: 1rem;
+  margin-right: 3rem;
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  font-size: 0.7rem;
 }
 
 /*Section articles*/
 
-main > section > article > img{
-width: 8rem;
-height: 6rem;
-object-fit: contain;
+main > section > article > img {
+  width: 8rem;
+  height: 6rem;
+  object-fit: contain;
 }
 
-h2{
-display: flex;
-justify-content: center;
-color:#A306B6;
-padding:25px;
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #a306b6;
+  padding: 25px;
 }
 
-.article_container{
-display: flex;
-justify-content: center;
+.article_container {
+  display: flex;
+  justify-content: center;
 }
 
-.article_blocks{
-border-radius: 5px;
-display: flex;
-flex-direction: column;
-align-items: center;
-margin:.4rem;
-background-color:#D9D9D9;
-padding: .1rem 3rem .2rem 3rem;
+.article_blocks {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.4rem;
+  background-color: #d9d9d9;
+  padding: 0.1rem 3rem 0.2rem 3rem;
 }
 
-h4{
-display:flex;
-justify-content: center;
+h4 {
+  display: flex;
+  justify-content: center;
 }
 
-button{
-padding: 0.4rem 1.5rem;
-margin: 2rem;
-background-color: #A306B6;
-color: white;
-border: none;
-border-radius: 1rem;
+button {
+  padding: 0.4rem 1.5rem;
+  margin: 2rem;
+  background-color: #a306b6;
+  color: white;
+  border: none;
+  border-radius: 1rem;
 }
 
-section>h2>p{
-display:flex;
-justify-content: center;
+section > h2 > p {
+  display: flex;
+  justify-content: center;
 }
 
-.text{
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-padding-bottom: 4rem;
+section > p {
+  padding: 0.5em;
+  margin: auto 34%;
 }
 
-section>p{
-padding:.5em;
-margin: auto 34%;
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 4rem;
 }
 
 /*Section Footer*/
 
-footer{
-height:10vh;
-background-color: #D9D9D9;
-display:flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
+footer {
+  height: 10vh;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-footer>p>a{
-color:#A306B6;
+footer > p > a {
+  color: #a306b6;
 }
 
-footer>p{
-
-justify-items: center;
-font-size:.7rem;
-line-height: .7rem;
+footer > p {
+  justify-items: center;
+  font-size: 0.7rem;
+  line-height: 0.7rem;
 }
